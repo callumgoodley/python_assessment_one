@@ -277,14 +277,7 @@ def eight(input):
 
 
 def nine(inputString, char):
-    string_upper = inputString.upper()
-    char_upper = char.upper()
-    print(char_upper)
-    print(string_upper)
-    count = 0
-    for i in string_upper:
-        if i == char_upper:
-            count += 1
+    split_string = inputString.split()
     return count
 
     # <QUESTION 10>
